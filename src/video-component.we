@@ -1,0 +1,43 @@
+<template>
+    <div>
+        <video class="video" src="http://flv2.bn.netease.com/videolib3/1611/01/XGqSL5981/SD/XGqSL5981-mobile.mp4" auto-play="true" onstart="onstart" onpause="onpause" onfinish="onfinish" onfail="onfail" play-status="play"></video>
+        <text class="info">{{state}}</text>
+    </div>
+</template>
+
+<script>
+    module.exports = {
+        data: {
+            state: '----',
+            src:'http://flv2.bn.netease.com/videolib3/1611/01/XGqSL5981/SD/XGqSL5981-mobile.mp4'
+        },
+        methods: {
+            onstart: function() {
+                this.state = 'onstart';
+            },
+            onpause: function() {
+                this.state = 'onpause';
+            },
+            onfinish: function() {
+                this.state = 'onfinish';
+            },
+            onfail: function() {
+                this.state = 'onfail';
+            }
+        }
+    }
+</script>
+
+<style>
+    .video {
+        width: 630px;
+        height: 350px;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    .info {
+        margin-top: 40px;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>

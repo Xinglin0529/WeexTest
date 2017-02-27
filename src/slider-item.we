@@ -1,0 +1,17 @@
+<template>
+    <image class="image" resize="contain" src="{{src}}"></image>
+</template>
+
+<script>
+    module.exports = {
+        data: {
+            src: ''
+        }
+    };
+</script>
+
+<style>
+    .image {
+        flex: 1;
+    }
+</style>

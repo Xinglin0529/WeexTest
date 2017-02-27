@@ -1,0 +1,12 @@
+<template>
+  <!--<slider-flow></slider-flow>-->
+  <!--<switch-container></switch-container>-->
+  <!--<text-container></text-container>-->
+  <!--<textarea-component></textarea-component>-->
+  <!--<video></video>-->
+  <web-component></web-component>
+</template>
+
+<style></style>
+
+<script></script>

@@ -1,0 +1,47 @@
+<template>
+    <div>
+        <slider class="slider" interval="3000" auto-play="true" onchange="onchange">
+            <slider-item repeat="{{imageList}}"></slider-item>
+            <indicator class="indicator"></indicator>
+        </slider>
+    </div>
+</template>
+
+<style>
+    .indicator {
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        height: 50px;
+        width: 300px;
+        item-color: green;
+        item-selected-color: red;
+        item-size: 10px;
+    }
+    .slider {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 200px;
+        height: 200px;
+        border-width: 1px;
+        border-color: #41b883;
+    }
+</style>
+
+<script>
+    module.exports = {
+        data: {
+            imageList: [
+                { src: 'https://gd2.alicdn.com/bao/uploaded/i2/T14H1LFwBcXXXXXXXX_!!0-item_pic.jpg'},
+                { src: 'https://gd1.alicdn.com/bao/uploaded/i1/TB1PXJCJFXXXXciXFXXXXXXXXXX_!!0-item_pic.jpg'},
+                { src: 'https://gd3.alicdn.com/bao/uploaded/i3/TB1x6hYLXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg'}
+            ]
+        },
+        methods: {
+            onchange: function(action) {
+                let event = require('@weex-module/event');
+//        event.showAlert('提示', `点击了${action.index}`);
+            }
+        }
+    }
+</script>

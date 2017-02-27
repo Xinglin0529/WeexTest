@@ -1,0 +1,74 @@
+<template>
+    <div>
+        <div class="group">
+            <input class="input" ref="input" type="url" autofocus="false" value="https://m.taobao.com"></input>
+        </div>
+        <div class="group">
+            <text class="button" onclick="loadURL">loadURL</text>
+            <text class="button" onclick="reload">reload</text>
+        </div>
+        <web ref="webview" src="{{url}}" class="webview" onpagestart="start" onpagefinish="finish" onerror="error"></web>
+    </div>
+</template>
+
+<script>
+    module.exports = {
+        data: {
+            url: 'https://m.alibaba.com'
+        },
+        methods: {
+            loadURL(event) {
+                this.url = this.$refs.input.value;
+                const self = this;
+                setTimeout(function() {
+                    let webview = require('@weex-module/webview');
+                    webview.goBack(self.$refs.webview);
+                }, 10000);
+            },
+            reload(event) {
+                let webview = require('@weex-module/webview');
+                webview.reload(this.$refs.webview)
+            },
+            start(event) {
+            },
+            finish(event) {
+            },
+            error(event) {
+            }
+        }
+    }
+</script>
+
+<style>
+    .group {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    .input {
+        width: 600px;
+        font-size: 36px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #BBBBBB;
+    }
+    .button {
+        width: 225px;
+        text-align: center;
+        background-color: #d3d3d3;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .webview {
+        margin-left: 75px;
+        width: 600px;
+        height: 750px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #41B883;
+    }
+</style>
