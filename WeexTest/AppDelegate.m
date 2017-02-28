@@ -11,6 +11,7 @@
 #import <WeexSDK/WeexSDK.h>
 #import "WXImageLoaderImpl.h"
 #import "WXEventModule.h"
+#import <TBWXDevTool/WXDevTool.h>
 
 @interface AppDelegate ()
 
@@ -23,7 +24,9 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"file://%@/bundlejs/main.js",[NSBundle mainBundle].bundlePath]];
+    WXBaseViewController *base = [[WXBaseViewController alloc] initWithSourceURL:URL];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:base];
     [self initWeexSDK];
     [self.window makeKeyAndVisible];
     return YES;
@@ -31,6 +34,8 @@
 
 - (void)initWeexSDK
 {
+//    [WXDevTool setDebug:YES];
+//    [WXDevTool launchDevToolDebugWithUrl:@"ws://10.28.100.114:8088/debugProxy/native"];
     [WXAppConfiguration setAppGroup:@"LDApp"];
     [WXAppConfiguration setAppName:@"WeexTest"];
     [WXAppConfiguration setAppVersion:@"1.0.0"];

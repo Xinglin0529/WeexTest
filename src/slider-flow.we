@@ -14,9 +14,6 @@
         left: 200px;
         height: 50px;
         width: 300px;
-        item-color: green;
-        item-selected-color: red;
-        item-size: 10px;
     }
     .slider {
         margin-left: 20px;

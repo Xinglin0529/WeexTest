@@ -4,6 +4,7 @@ use_frameworks!
 target 'WeexTest' do
 pod 'SDWebImage'
 pod 'Masonry'
-pod 'WeexSDK','~>0.10.0'
+pod 'WeexSDK'
+pod 'WXDevtool', :configurations => ['Debug']
 
 end

@@ -4,7 +4,9 @@
   <!--<text-container></text-container>-->
   <!--<textarea-component></textarea-component>-->
   <!--<video></video>-->
-  <web-component></web-component>
+  <!--<web-component></web-component>-->
+   <list-container></list-container>
+
 </template>
 
 <style></style>
