@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2410d975-67fa-4f9e-97f5-1c8795f29eac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest.xcworkspace/xcuserdata/Dongdong.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/WeexTest.xcworkspace/xcuserdata/Dongdong.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WeexTest/Pods-WeexTest.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SocketRocket/SocketRocket.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SocketRocket/SocketRocket.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/AppDelegate.m" afterPath="$PROJECT_DIR$/WeexTest/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/main.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/slider-flow.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/slider-flow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/slider-item.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/slider-item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/switch-container.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/switch-container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/text-container.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/text-container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/textarea-component.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/textarea-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/video-component.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/video-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeexTest/bundlejs/web-component.js" afterPath="$PROJECT_DIR$/WeexTest/bundlejs/web-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.we" afterPath="$PROJECT_DIR$/src/main.we" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/slider-flow.we" afterPath="$PROJECT_DIR$/src/slider-flow.we" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/switch-container.we" afterPath="$PROJECT_DIR$/src/switch-container.we" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/web-component.we" afterPath="$PROJECT_DIR$/src/web-component.we" />
     </list>
     <ignored path="WeexTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.we" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.we" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.we">
           <provider selected="true" editor-type-id="WeexFxPreviewEditor">
             <state />
@@ -70,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textarea-component.we" pinned="false" current-in-tab="true">
+      <file leaf-file-name="textarea-component.we" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/textarea-component.we">
           <provider selected="true" editor-type-id="WeexFxPreviewEditor">
             <state />
@@ -140,10 +115,26 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-26" />
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="733" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -190,35 +181,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeexTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeexTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../weex" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -236,12 +254,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="23" width="1280" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="2" y="23" width="1280" height="733" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17156473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17156473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Weex Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -252,6 +269,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Weex Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -496,27 +514,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/slider-item.we">
-      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web-component.we">
       <provider selected="true" editor-type-id="WeexFxPreviewEditor">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/video-component.we">
-      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/slider-flow.we">
-      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.we">
       <provider selected="true" editor-type-id="WeexFxPreviewEditor">
         <state />
       </provider>
@@ -536,5 +539,35 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/slider-item.we">
+      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slider-flow.we">
+      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.we">
+      <provider selected="true" editor-type-id="WeexFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
