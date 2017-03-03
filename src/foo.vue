@@ -1,3 +1,4 @@
+
 <template>
   <div class="wrapper" @click="update">
     <image :src="logoUrl" class="logo"></image>
