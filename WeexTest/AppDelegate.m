@@ -22,12 +22,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initWeexSDK];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"file://%@/bundlejs/app.js",[NSBundle mainBundle].bundlePath]];
+    NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"file://%@/bundlejs/main.vue",[NSBundle mainBundle].bundlePath]];
     WXBaseViewController *base = [[WXBaseViewController alloc] initWithSourceURL:URL];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:base];
-    [self initWeexSDK];
     [self.window makeKeyAndVisible];
     return YES;
 }
